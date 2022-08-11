@@ -12,7 +12,7 @@ function App() {
   return (
 
     <div>
-      <Home/>
+      <Subject/>
     </div>
    /* <Router>
       <nav>

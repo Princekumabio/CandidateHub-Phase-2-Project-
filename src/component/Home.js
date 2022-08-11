@@ -48,11 +48,11 @@ function Home() {
                             <span>Updated 22/07/22</span>
                             <h6>Core Mathematics </h6>
                             <div class="star">
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star-half.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star-half.png" alt="" width="10%" height="10%"/>
                                 <span>(5439)</span>
                             </div>
                         </div>
@@ -62,16 +62,16 @@ function Home() {
                     </div>
 
                     <div class="courses">
-                        <img class="mainimg" src="/images/int.jpeg" alt=""/>
+                        <img class="mainimg" src="src/images/int.jpeg" alt=""/>
                         <div class="details">
                             <span>Updated 22/07/22</span>
                             <h6>Integrated Science </h6>
                             <div class="star">
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star-half.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star-half.png" alt="" width="10%" height="10%"/>
                                 <span>(5439)</span>
                             </div>
                         </div>
@@ -81,16 +81,16 @@ function Home() {
                     </div>
 
                     <div class="courses">
-                        <img class="mainimg" src="/images/eng.jpg" alt=""/>
+                        <img class="mainimg" src="src/images/eng.jpg" alt=""/>
                         <div class="details">
                             <span>Updated 22/07/22</span>
                             <h6>English Language </h6>
                             <div class="star">
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star-half.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star-half.png" alt="" width="10%" height="10%"/>
                                 <span>(5439)</span>
                             </div>
                         </div>
@@ -100,16 +100,16 @@ function Home() {
                     </div>
 
                     <div class="courses">
-                        <img class="mainimg" src="/images/ss.gif" alt=""/>
+                        <img class="mainimg" src="src/images/ss.gif" alt=""/>
                         <div class="details">
                             <span>Updated 22/07/22</span>
                             <h6>Social Studies</h6>
                             <div class="star">
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star.png" alt="" width="10%" height="10%"/>
-                                <img src="/images/star-half.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star.png" alt="" width="10%" height="10%"/>
+                                <img src="src/images/star-half.png" alt="" width="10%" height="10%"/>
                                 <span>(5439)</span>
                             </div>
                         </div>
