@@ -1,13 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Poppins', sans-serif;
+    }
+    
+    /* Global Tags */
+    
+    h1 {
+        font-size: 2.5rems;
+        font-weight: 700;
+        color: rgb(35, 35, 85);
+    }
+    
+    span {
+        font-size: 2.5rems;
+        color: #757373;
+    
+    }
+    
+    h6 {
+        font-size: 2.5rems;
+        font-weight: 700;
+        color: rgb(24, 24, 49);
+    }
+    
+    /*nAVIGATION*/
+    nav {
+        position: fixed;
+        display: flex;
+        background-color: #fff;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+        padding: 25px 100px;
+    }
+    
+    nav img {
+        width: 15%;
+        height: 15%;
+        cursor: pointer;
+        ;
+    }
+    
+    nav .navigation ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    nav .navigation ul li {
+        list-style: none;
+        margin-left: 30px;
+    }
+    
+    nav .navigation ul li a {
+        text-decoration: none;
+        color: rgb(21, 21, 100);
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    nav .navigation ul li a:hover {
+        color: rgb(252, 136, 5);
+    }
+    
+    #home {
+        background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url("images/bk3.jpg");
+        width: 100%;
+        height: 85vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 80px;
+    }
+    
+    #home h2 {
+        color: #fff;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+    
+    #home p {
+        color: #fff;
+        width: 60%;
+        font-size: 1.1rem;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    #home .btn {
+        margin-top: 30px;
+    }
+    
+    #home a {
+        text-decoration: none;
+        font-size: 0.9rem;
+        padding: 13px 35px;
+        background-color: #fff;
+        font-weight: 600;
+        border-radius: 5px;
+    }
+    
+    #home a.blue {
+        color: #fff;
+        background: rgb(21, 21, 100);
+        transition: 0.3s ease;
+    }
+    
+    #home a.blue:hover {
+        color: rgb(21, 21, 100);
+        background: #fff;
+    }
+    
+    #home a.yellow {
+        color: #000;
+        background: yellow;
+        transition: 0.3s ease;
+    }
+    
+    #home a.yellow:hover {
+        color: rgb(21, 21, 100);
+        background: #fff;
+    }
+    
+    #features {
+        padding: 5vw 8vw 0 8vw;
+        text-align: center;
+    }
+    
+    #features h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    
+    
+    #features .fea-base {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 1rem;
+        margin-top: 50px;
+    
+    }
+    
+    #features .feat-box {
+        background: #f9f9ff;
+        text-align: start;
+        border-radius: 10px;
+    }
+    
+    #features .feat-box img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #features .feat-box h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: rgb(46, 46, 59);
+        padding: 13px 0 7px 0;
+    }
+    
+    #features .feat-box p {
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgb(70, 70, 87);
+    }
+    
+    /* Courses*/
+    #courses {
+        padding: 8vw 8vw 0 8vw;
+        text-align: center;
+    }
+    
+    #courses .courses {
+        text-align: start;
+        background: #f9f9ff;
+        height: 100%;
+        position: relative;
+    }
+    
+    
+    #courses h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    
+    #courses p {
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgb(70, 70, 87);
+    }
+    
+    #courses .course-box {
+        display: flex;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 1rem;
+        margin-top: 30px;
+    }
+    
+    #courses .courses .mainimg {
+        width: 100%;
+        height: 190px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #courses .courses .details {
+        padding: 15px 15px 0 15px;
+    }
+    
+    
+    #courses .courses .cost {
+        background-color: rgb(10, 10, 151);
+        color: #fff;
+        line-height: 70px;
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        right: 15px;
+        bottom: 100px;
+        box-shadow: 0.2cm;
+    }
+    
+    /*Quiz*/
+    
+    .quiz-container {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.51);
+        overflow: hidden;
+        width: 600px;
+        max-width: 100%;
+        padding: 10px 10px 10px 20px;
+        margin: 50px;
+        align-items: center;
+    }
+    
+    #quiz {
+        padding: 150px 400px;
+    }
+    
+    
+    .quiz-header {
+        padding: 4rem;
+    }
+    
+    h2 {
+        padding: 1rem;
+        text-align: center;
+    margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: #0477c4;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1.3rem;
+}
+
+button:hover {
+    background-color: #4e076d;
+}
+
+button:focus {
+    background-color: #804706;
+    outline: none;
+}
+
+footer {
+    position: relative;
+}
+
+.btn {
+    display: flex;
 }
